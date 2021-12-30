@@ -1,0 +1,83 @@
+/*Mobile breakpoint*/
+
+@media (max-width: 46.18em) {
+  .s-full-width {
+    width: 100% !important;
+  }
+
+  .s-mt-8 {
+    margin-top: 8px !important;
+  }
+  .s-col-full {
+    width: 100%;
+  }
+  #nav {
+    display: block;
+  }
+  #nav > li:first-child {
+    display: inline-block;
+    /*li dau tien ko co width 100%,
+         click vao ko bi lam sao*/
+  }
+  #nav > li {
+    display: block;
+  }
+  #nav li a {
+    padding: 1px 24px;
+  }
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+
+  #nav .subnav a {
+    color: #fff;
+    padding: 5px 41px;
+  }
+  #header .mobile-menu-btn {
+    display: block;
+  }
+  #header .search-btn {
+    display: none;
+  }
+  #header {
+    overflow: hidden;
+  }
+  .contact-form {
+    margin-top: 32px;
+  }
+}
+
+/*PC*/
+
+/*Tablet & mobile*/
+@media (max-width: 63.9em) {
+  .btn {
+    padding: 15px 16px;
+  }
+
+  #nav .subnav a {
+    padding: 5px 12px;
+  }
+
+  .contact-form .form-control {
+    padding: 15px;
+    font-size: 16px;
+  }
+  .contact-info {
+    line-height: 2;
+  }
+  #footer .social-media {
+    font-size: 48px;
+  }
+  .social-media a {
+    margin: 0 6px;
+  }
+  .copy-right > a {
+    padding: 10px 0;
+    display: inline-block;
+  }
+  .submit-btn {
+    font-size: 16px;
+  }
+}
