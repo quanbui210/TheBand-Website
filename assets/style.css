@@ -190,7 +190,7 @@ html {
   /*50% chieu ngang cua chinh no
       dam bao kich thuoc chieu cao luon la 50% chieu rong*/
   margin-top: 46px; /*ko trung header*/
-  background-image: url("./assets/img/la.jpg");
+  background-image: url("/assets/img/la.jpg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
